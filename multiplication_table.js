@@ -1,12 +1,5 @@
 let number = parseInt(prompt('enter the number to get the multiplication table'))
-// console.log(number);
-
 if (!isNaN(number)) {
-    // for(let i=1; i<=10;i++){
-    //     let res=number + "*" + i + "=" + (number*i);
-    //     console.log(res);
-
-    // console.log('Multiplication table for ' + number + ':');
     let ul = '<ul>'
     for (let i = 1; i <= 10; i++) {
         let res = number + ' * ' + i + ' = ' + (number * i);
